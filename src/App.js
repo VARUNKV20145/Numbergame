@@ -15,7 +15,7 @@ function App() {
             body: JSON.stringify(number)
         };
         let res = await fetch("http://127.0.0.1:8000/user", options);
-        if (res.status==200){
+        if (res.status===200){
             setResult("Hurray you Won the game");
         }
         else{
