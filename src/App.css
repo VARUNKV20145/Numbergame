@@ -1,0 +1,67 @@
+body{background: linear-gradient(45deg, #C973FF, #AEBAF8);
+    /*background: linear-gradient(45deg, #FC466B, #3F5EFB);*/
+    height: 100vh;
+    font-family: 'Roboto', sans-serif;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input {
+    background: rgba(255, 255, 255, 0.3);
+    height: auto;
+    width: 100%;
+    outline: none;
+
+    padding-top: 2%;
+    padding-bottom: 2%;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+    border-radius: 8px;
+    border: none;
+    margin: 2% 2% 5% 2%;
+}
+.window {
+    background: rgba(255, 255, 255, 0.3);
+    display: flex;
+    flex-direction: column;
+    padding: 10% 10% 10% 10%;
+    height: auto;
+    width: auto;
+    border-radius: 20px;
+    justify-content: center;
+    border-left: 1px solid rgba(255, 255, 255, 0.3);
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    backdrop-filter: blur(10px);
+    box-shadow: 20px 20px 40px -6px rgba(0, 0, 0, 0.2);
+
+
+}
+
+
+label{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 5%;
+    font-family: 'Roboto', sans-serif;
+    font-size: large;
+}
+.button{
+    width: auto;
+    display: flex;
+margin: auto;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.button:hover {
+  background: linear-gradient(45deg, #C973FF, #AEBAF8);
+}
+h1{margin-left: 5%;
+
+    font-family: 'Roboto', sans-serif;
+    font-size: x-large;
+}
+
